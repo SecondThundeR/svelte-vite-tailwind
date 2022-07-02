@@ -6,11 +6,15 @@ This template is based on official [create-vite](https://github.com/vitejs/vite/
 
 ## Recommended IDE Setup
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode) + [Tailwind](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+[VS Code](https://code.visualstudio.com/)
+
+> All necessary plugins are defined in the `.vscode/extensions.json` file. So the IDE will recommend them to you automatically
 
 ## Project setup
 
-To use this template, you can use npx digit on this repo or setup everything manually.
+> If you want more out of a pure Svelte + Vite + Tailwind experience, go to the [enhanced](https://github.com/SecondThundeR/svelte-vite-tailwind/tree/enhanced) branch
+
+To use this template, you can use npx digit on this branch or setup everything manually.
 
 ### Quickstart
 
