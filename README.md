@@ -2,7 +2,7 @@
 
 This template should help get you started developing with Svelte (TypeScript) and Tailwind in Vite _(Plus linters and formatters)_.
 
-This template is based on official [create-vite](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-svelte-ts) template for Svelte TS with use of [svelte-add](https://github.com/svelte-add/tailwindcss) for adding Tailwind and Linters + Formatters with ease.
+This template is based on official [create-vite](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-svelte-ts) template for Svelte TS with use of linters and formatters and [svelte-add](https://github.com/svelte-add/tailwindcss) for adding Tailwind with ease.
 
 ## Recommended IDE Setup
 
