@@ -1,21 +1,25 @@
-# Svelte (TS) + Vite + Tailwind
+# Svelte (TS) + Vite + Tailwind (Enhanced)
 
-This template should help get you started developing with Svelte (TypeScript) and Tailwind in Vite.
+This template should help get you started developing with Svelte (TypeScript) and Tailwind in Vite _(Plus linters and formatters)_.
 
-This template is based on official [create-vite](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-svelte-ts) template for Svelte TS with use of [svelte-add](https://github.com/svelte-add/tailwindcss) for adding Tailwind with ease.
+This template is based on official [create-vite](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-svelte-ts) template for Svelte TS with use of [svelte-add](https://github.com/svelte-add/tailwindcss) for adding Tailwind and Linters + Formatters with ease.
 
 ## Recommended IDE Setup
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode) + [Tailwind](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+[VS Code](https://code.visualstudio.com/)
+
+> All necessary plugins are defined in the `.vscode/extensions.json` file. So the IDE will recommend them to you automatically
 
 ## Project setup
 
-To use this template, you can use npx digit on this repo or setup everything manually.
+> If you want a pure Svelte + Vite + Tailwind experience, go to the [main](https://github.com/SecondThundeR/svelte-vite-tailwind/tree/main) branch
+
+To use this template, you can use npx digit on this branch or setup everything manually.
 
 ### Quickstart
 
 ```shell
-npx degit secondthunder/svelte-vite-tailwind name-of-svelte-app
+npx degit secondthunder/svelte-vite-tailwind#enhanced name-of-svelte-app
 cd name-of-svelte-app
 npm install
 ```
@@ -29,6 +33,8 @@ npm install
 ...
 npx svelte-add@latest tailwindcss
 npm install
+...
+npm install --save-dev @typescript-eslint/parser eslint eslint-config-prettier eslint-plugin-json eslint-plugin-prettier prettier prettier-plugin-svelte stylelint stylelint-config-standard svelte-eslint-parser
 ```
 
 If you prefer regular JS, you can run first command above with `--template svelte`
