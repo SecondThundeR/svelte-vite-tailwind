@@ -1,0 +1,10 @@
+/public/build/**
+/node_modules/**
+*.html
+package-lock.json
+pnpm-lock.yaml
+yarn-lock.json
+.editorconfig
+.eslintignore
+.prettierignore
+.gitignore
