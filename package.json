@@ -10,7 +10,6 @@
         "check": "svelte-check --tsconfig ./tsconfig.json",
         "format": "prettier --check .",
         "format:fix": "prettier --write .",
-        "prelint": "npm run format-fix",
         "lint": "eslint --ext .cjs,.js,.ts,.json,.svelte .",
         "lint:fix": "eslint --fix --ext .cjs,.js,.ts,.json,.svelte ."
     },
