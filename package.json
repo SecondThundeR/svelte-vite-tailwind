@@ -9,10 +9,10 @@
         "preview": "vite preview",
         "check": "svelte-check --tsconfig ./tsconfig.json",
         "format": "prettier --check .",
-        "format-fix": "prettier --write .",
+        "format:fix": "prettier --write .",
         "prelint": "npm run format-fix",
         "lint": "eslint --ext .cjs,.js,.ts,.json,.svelte .",
-        "lint-fix": "eslint --fix --ext .cjs,.js,.ts,.json,.svelte ."
+        "lint:fix": "eslint --fix --ext .cjs,.js,.ts,.json,.svelte ."
     },
     "devDependencies": {
         "@sveltejs/vite-plugin-svelte": "^1.0.9",
