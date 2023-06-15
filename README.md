@@ -19,22 +19,22 @@ To use this template, you can use npx digit on this branch or setup everything m
 ### Quickstart
 
 ```shell
-npx degit secondthunder/svelte-vite-tailwind#enhanced name-of-svelte-app
+pnpm dlx degit secondthunder/svelte-vite-tailwind#enhanced name-of-svelte-app
 cd name-of-svelte-app
-npm install
+pnpm install
 ```
 
 ### Manual setup
 
 ```shell
-npm init vite@latest name-of-svelte-app -- --template svelte-ts
+pnpm create vite name-of-svelte-app --template svelte-ts
 cd name-of-svelte-app
-npm install
+pnpm install
 ...
-npx svelte-add@latest tailwindcss
-npm install
+pnpm dlx svelte-add@latest tailwindcss
+pnpm install
 ...
-npm install --save-dev @typescript-eslint/parser eslint eslint-config-prettier eslint-plugin-json eslint-plugin-prettier prettier prettier-plugin-svelte stylelint stylelint-config-standard svelte-eslint-parser
+pnpm install -D @typescript-eslint/parser eslint eslint-config-prettier eslint-plugin-json eslint-plugin-prettier prettier prettier-plugin-svelte stylelint stylelint-config-standard svelte-eslint-parser
 ```
 
 If you prefer regular JS, you can run first command above with `--template svelte`
