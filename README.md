@@ -14,7 +14,7 @@ This template is based on official [create-vite](https://github.com/vitejs/vite/
 
 > If you want a pure Svelte + Vite + Tailwind experience, go to the [main](https://github.com/SecondThundeR/svelte-vite-tailwind/tree/main) branch
 
-To use this template, you can use npx digit on this branch or setup everything manually.
+To use this template, you can use `pnpm dlx degit` on this branch or setup everything manually.
 
 ### Quickstart
 
