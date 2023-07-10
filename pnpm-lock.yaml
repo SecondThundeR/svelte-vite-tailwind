@@ -15,7 +15,7 @@ devDependencies:
     specifier: ^10.4.14
     version: 10.4.14(postcss@8.4.25)
   postcss:
-    specifier: ^8.4.25
+    specifier: ^8.4.24
     version: 8.4.25
   postcss-load-config:
     specifier: ^4.0.1
@@ -26,9 +26,6 @@ devDependencies:
   svelte-check:
     specifier: ^3.4.5
     version: 3.4.5(postcss-load-config@4.0.1)(postcss@8.4.25)(svelte@4.0.5)
-  svelte-preprocess:
-    specifier: ^5.0.4
-    version: 5.0.4(postcss-load-config@4.0.1)(postcss@8.4.25)(svelte@4.0.5)(typescript@5.1.6)
   tailwindcss:
     specifier: ^3.3.2
     version: 3.3.2
