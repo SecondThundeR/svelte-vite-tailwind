@@ -1,8 +1,13 @@
+/** @type {import('tailwindcss').Config}*/
 const config = {
     content: ['./src/**/*.{html,js,svelte,ts}'],
 
     theme: {
-        extend: {}
+        extend: {
+            fontFamily: {
+                root: 'Inter, system-ui, Avenir, Helvetica, Arial, sans-serif'
+            }
+        }
     },
 
     plugins: []

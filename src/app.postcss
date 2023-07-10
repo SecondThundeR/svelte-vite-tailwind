@@ -1,0 +1,69 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    /*
+        If you want to add your own default base styles for specific HTML elements,
+        use the @layer directive to add those styles to Tailwind’s base layer
+     */
+    :root {
+        font-synthesis: none;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-text-size-adjust: 100%;
+
+        @apply font-root leading-normal font-normal text-[#213547] dark:text-white/[0.87] bg-white dark:bg-[#242424];
+    }
+
+    a {
+        @apply font-medium text-[#646cff] decoration-inherit hover:text-[##747bff] dark:hover:text-[#535bf2];
+    }
+
+    body {
+        @apply m-0 flex place-items-center min-w-[320px] min-h-screen;
+    }
+
+    h1 {
+        @apply text-[3.2em] leading-[1.1] font-bold my-9;
+    }
+
+    button {
+        @apply rounded-lg border-[1px] border-solid border-transparent py-[0.6em] px-[1.2em] text-base font-medium font-sans bg-[#f9f9f9] dark:bg-[#1a1a1a] cursor-pointer transition-[border-color] duration-[25ms] hover:border-[#646cff] focus:outline-4 focus:outline-[-webkit-focus-ring-color] focus-visible:outline-4 focus-visible:outline-[-webkit-focus-ring-color];
+    }
+
+    button:focus,
+    button:focus-visible {
+        /* Can't match with Tailwind CSS for now */
+        outline-style: auto;
+    }
+
+    p {
+        @apply my-4;
+    }
+}
+
+@layer components {
+    /*
+        Use the components layer for any more complicated classes you want
+        to add to your project that you’d still like to be able to override with utility classes.
+    */
+    .card {
+        @apply p-[2em];
+    }
+
+    #app {
+        @apply max-w-[1280px] my-0 mx-auto p-8 text-center;
+    }
+}
+
+@layer utilities {
+    /*
+        Add any of your own custom utility classes to Tailwind’s utilities layer
+
+        This can be useful when there’s a CSS feature you’d like to use in your project
+        that Tailwind doesn’t include utilities for out of the box.
+    */
+}
