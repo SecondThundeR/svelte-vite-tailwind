@@ -5,6 +5,7 @@ const config = {
     printWidth: 80,
     svelteSortOrder: 'options-scripts-markup-styles',
     trailingComma: 'none',
+    plugins: ['prettier-plugin-svelte'],
     overrides: [
         {
             files: ['*.svelte', '*.html'],
