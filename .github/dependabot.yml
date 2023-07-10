@@ -1,6 +1,6 @@
 version: 2
 updates:
-  - package-ecosystem: 'npm'
-    directory: '/'
+  - package-ecosystem: "pnpm"
+    directory: "/"
     schedule:
-      interval: 'monthly'
+      interval: "monthly"
